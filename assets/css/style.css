@@ -1,0 +1,257 @@
+/*  MY NAME   font-family: 'Abel', sans-serif;
+    BODY COPY font-family: 'Raleway', sans-serif; */
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1d1e22;
+    }
+    
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    #wrapper {
+        margin: 0 auto;
+        width: 960px;
+    }
+    /* Header with Name and NavBar */
+    header {
+        height: 121px;
+        margin: 0px auto 0px auto;
+        padding: 0;
+        width: 960px;
+        background-image: url("http://www.figureeightdesign.com/images/dike_snake_blur.png");
+        background-size: cover;
+    }
+    
+    #rock-on{
+        float:left;
+        margin: 10px 0px 10px 20px;
+        height: 80%;
+    }
+    
+    #top-name {
+        font-size: 40px;
+        float: left;
+        margin: 40px 0px 10px 20px;
+        text-transform: uppercase;
+        font-family: 'Abel', sans-serif;
+        color: #feda6a;
+        width: 30%;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    
+    li a.nav-link {
+        float: right;
+        border-left: 1px solid #d4d4dc;
+        text-transform: uppercase;
+        font-family: 'Abel', sans-serif;
+        color: #d4d4dc;
+        padding: 85px 14px 20px 14px;
+        text-align: right;
+        text-decoration: none;
+    }
+    
+    li a.nav-link:hover {
+        color: #1d1e22;
+        background-color: #feda6a;
+      }
+    
+    .stat-text {
+        width: 100%;
+        text-align: right;
+        float: right;
+        padding: 15px 0px 0px 0px;
+        font-family: 'Raleway', sans-serif;
+        color: #d4d4dc;
+        font-size: 11px;
+    }
+    .stat-text:last-child {
+        margin-bottom: 30px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        margin-left: 30px; 
+        font-family: 'Abel', sans-serif;
+        color: #feda6a;
+    }
+    
+    h3 {
+        vertical-align: center;
+        font-size: 10px;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    h4 {
+        bottom: 10px;
+        text-align: center;
+        padding: 15px 0px 15px 0px;
+        margin: 140px auto 0px;
+        font-family: 'Abel', sans-serif;
+        color: #feda6a;
+        background-color: #333333
+    }
+    
+    b {
+        color: #feda6a;
+        font-weight: 800;
+    }
+    
+    aside {
+        float: left;
+        width: 30%;
+    }
+    
+    #about-me {
+        margin: 50px 0px 20px 0px;
+        width: 70%;
+        float: right;
+    }
+    
+    #contact-me {
+        width: 70%;
+        margin: 50px auto 20px auto;
+    }
+    
+    #portfolio-me {
+        width: 80%;
+        margin: 50px auto 20px auto;
+    }
+    
+    #portfolio-box {
+        width: 768px;
+        background-color: #333333;
+        height: 500px;
+    }
+    
+    .portfolio-item {
+        display:inline;
+        float: left;
+        margin: 30px 0px 0px 42px;
+        width: 200px;
+        height: 200px;
+        background-color: #1d1e22;
+        background-image: url(http://placehold.it/200x200);
+    }
+    
+    #bio-image {
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    
+    img {
+        display: initial;
+    }
+    
+    p {
+        line-height: 1.5;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        color: #d4d4dc;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    
+    footer {
+        margin: 0 auto;
+        background-color: #333333;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 50vh 0 50vh #333333;
+    }
+    
+    hr {
+        border: none;
+        height: 1px;
+        color: #feda6a;
+        background-color: #feda6a;
+        margin: 10px 0px 10px 30px
+    }
+    
+    #portfolio-hr {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    input {
+        margin: 0px 0px 25px 30px;
+        width: 620px;
+        height: 20px;
+        color: white;
+        font-size: 12px;
+        padding-left: 20px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #feda6a;
+        background-color: #1d1e22;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    input.contact-message-box {
+        resize: vertical;
+        overflow: hidden;
+    }
+    
+    .p-contact {
+        margin: 0px 0px 5px 30px;
+    }
+    
+    #submit-button {
+        background-color: #333333;
+        font-family: 'Abel', sans-serif;
+        color: #feda6a;
+        margin-left: 30px;
+        border-style: none;
+        font-size: 16px;
+    }
+    
+    li a.social-media {
+        display: inline;
+        float: left;
+        text-transform: uppercase;
+        font-family: 'Abel', sans-serif;
+        color: #d4d4dc;
+        text-decoration: none;
+        margin: 20px 0 20px 0;
+        padding: 0px 10px;
+    }
+    
+    li a.social-media:first-child {
+        margin-left: 100px;
+    }
+    
+    li a.social-media:hover {
+        color: #1d1e22;
+        background-color: #feda6a;
+      }
+    
+      textarea {
+        margin: 0px 0px 25px 30px;
+        width: 620px;
+        color: white;
+        font-size: 12px;
+        padding: 15px 0px 0px 20px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #feda6a;
+        background-color: #333333;
+        border-radius: 10px 10px 0px 0px;
+        resize: vertical;
+        overflow: visible;
+      }
+    
