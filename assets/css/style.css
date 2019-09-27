@@ -218,6 +218,12 @@
         border-style: none;
         font-size: 16px;
     }
+
+    ul {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
     
     li a.social-media {
         display: inline;
@@ -237,9 +243,9 @@
     li a.social-media:hover {
         color: #1d1e22;
         background-color: #feda6a;
-      }
+    }
     
-      textarea {
+    textarea {
         margin: 0px 0px 25px 30px;
         width: 620px;
         color: white;
@@ -254,4 +260,225 @@
         resize: vertical;
         overflow: visible;
       }
-    
+
+    @media only screen and (max-width: 980px) {
+
+      }
+
+    @media only screen and (max-width: 768px) {
+        #wrapper {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        #contact-me {
+            width: 100%;
+            margin: 50px 0px 20px 00px;
+        }
+
+        li a.nav-link {
+            text-transform: uppercase;
+            font-family: 'Abel', sans-serif;
+            color: #d4d4dc;
+            padding: 85px 14px 20px 14px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        input {
+            margin: 0px 20px 25px 20px;
+            width: 90%;
+            height: 20px;
+            color: white;
+            font-size: 12px;
+            padding-left: 20px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #feda6a;
+            background-color: #1d1e22;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        textarea {
+            margin: 0px 20px 25px 20px;
+            width: 90%;
+            color: white;
+            font-size: 12px;
+            padding: 15px 0px 0px 20px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #feda6a;
+            background-color: #333333;
+            border-radius: 10px 10px 0px 0px;
+            resize: vertical;
+            overflow: visible;
+          }
+
+        header {
+            height: 121px;
+            margin: 0px auto 0px auto;
+            padding: 0;
+            width: 100%;
+            background-image: url("http://www.figureeightdesign.com/images/dike_snake_blur.png");
+            background-size: cover;
+        }
+        #top-name {
+            float: left;
+            font-size: 40px;
+            margin: 20px auto 10px 30px;
+            text-transform: uppercase;
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+            width: 30%;
+        }
+
+        .p-contact {
+            margin: 0px 0px 5px 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-left: 20px; 
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+        }
+
+        li a.social-media {
+            display: block;
+            text-transform: uppercase;
+            font-family: 'Abel', sans-serif;
+            color: #d4d4dc;
+            text-decoration: none;
+            margin: 20px 0 20px 0;
+            padding: 0px 10px;
+        }
+    }
+
+    @media only screen and (max-width: 640px) {
+        
+        #wrapper {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        #contact-me {
+            width: 100%;
+            margin: 50px auto 20px auto;
+        }
+        
+        nav {
+            width: 100%;
+            display: table;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style: none;
+            position: relative;
+            display: inline; 
+            right: 28%;
+            }
+
+        li a.nav-link {
+            display: inline;
+            float: right;
+            position: relative;
+            border: none;
+            text-transform: uppercase;
+            font-family: 'Abel', sans-serif;
+            color: #d4d4dc;
+            padding: 20px 20px 15px;
+            text-decoration: none;
+        }
+
+        input {
+            margin: 0px 0px 25px 20px;
+            width: 90%;
+            height: 20px;
+            color: white;
+            font-size: 12px;
+            padding-left: 20px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #feda6a;
+            background-color: #1d1e22;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        textarea {
+            margin: 0px 0px 25px 20px;
+            width: 90%;
+            color: white;
+            font-size: 12px;
+            padding: 15px 0px 0px 20px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #feda6a;
+            background-color: #333333;
+            border-radius: 10px 10px 0px 0px;
+            resize: vertical;
+            overflow: visible;
+          }
+
+        header {
+            height: 121px;
+            margin: 0px auto 0px auto;
+            padding: 0;
+            width: 100%;
+            background-image: url("http://www.figureeightdesign.com/images/dike_snake_blur.png");
+            background-size: cover;
+        }
+
+        #rock-on{
+            display: none;
+            margin: 10px 0px 10px 20px;
+            height: 80%;
+        }
+
+        #top-name {
+            background-color: #333333;
+            text-align: center;
+            display: block;
+            font-size: 40px;
+            margin: 0px auto 0px auto;
+            text-transform: uppercase;
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+            width: 100%;
+            padding: 20px 0px 10px 0px;
+        }
+
+        .p-contact {
+            margin: 0px 0px 5px 20px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-left: 20px; 
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+        }
+
+        li a.social-media {
+            display: inline;
+            text-transform: uppercase;
+            font-family: 'Abel', sans-serif;
+            color: #d4d4dc;
+            text-decoration: none;
+            margin: 20px 0 20px 0;
+            padding: 0px 10px;
+        }
+        
+        li a.social-media:first-child {
+            margin-left: 0px;
+        }
+        
+        li a.social-media:hover {
+            color: #1d1e22;
+            background-color: #feda6a;
+        }
+    }
