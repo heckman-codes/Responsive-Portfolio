@@ -149,6 +149,10 @@
         margin-top: 50px;
         border-radius: 10px;
     }
+
+    #bio-image-2 {
+        display: none;
+    }
     
     img {
         display: initial;
@@ -289,6 +293,13 @@
             width: 70%;
         }
 
+        h2 {
+            font-size: 30px;
+            margin-left: 30px; 
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+        }
+
         p {
             line-height: 1.5;
             margin-bottom: 10px;
@@ -306,9 +317,74 @@
             width: 100%;
         }
 
-        #bio-image {
-            margin-top: 50px;
+        #portfolio-me {
+            width: 90%;
+            margin: 50px auto 20px auto;
+        }
+        .portfolio-item {
+            display:inline;
+            float: left;
+            margin: 30px 0px 0px 27px;
+            width: 300px;
+            height: 300px;
+            background-color: #1d1e22;
+            background-image: url(http://placehold.it/300x300);
+        }
+
+        #portfolio-box {
+            height: 1000px;
+            width: 100%;
+            margin: 10px auto 20px auto;
+        }
+
+        h2 {
+            /* float: left; */
+            font-size: 30px;
+            margin-left: 30px; 
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+        }
+
+        h4 {
+            font-size: 25px;
+            bottom: 10px;
+            text-align: center;
+            padding: 15px 0px 15px 0px;
+            margin: 220px auto 0px;
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+            background-color: #333333
+        }
+
+        hr {
+            /* float:left; */
+            width: 60%;
+        }
+
+        #bio-image-2  {
+            display: inherit;
+            float: left;
+            margin-top: 0px;
+            margin-right: 20px;
             border-radius: 10px;
+        }
+
+        p {
+            margin-left: 0px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+            margin-right: 20px;
+            color: #d4d4dc;
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            font-weight: lighter;
+        }
+        
+        aside {
+            display: none;
+            margin: 0 auto;
+            float: unset;
+            width: 0%;
         }
 
         .stat-text {
@@ -320,6 +396,12 @@
             font-family: 'Raleway', sans-serif;
             color: #d4d4dc;
             font-size: 11px;
+        }
+
+        #about-me {
+            margin: 50px auto 20px auto;
+            width: 90%;
+            float: initial;
         }
 
         #contact-me {
@@ -375,6 +457,7 @@
             background-image: url("http://www.figureeightdesign.com/images/dike_snake_blur.png");
             background-size: cover;
         }
+
         #top-name {
             float: left;
             font-size: 40px;
@@ -393,13 +476,6 @@
             margin-left: 20px;
         }
 
-        h2 {
-            font-size: 30px;
-            margin-left: 20px; 
-            font-family: 'Abel', sans-serif;
-            color: #feda6a;
-        }
-
         li a.social-media {
             display: block;
             text-transform: uppercase;
@@ -412,6 +488,23 @@
     }
 
     @media only screen and (max-width: 640px) {
+
+        h4 {
+            font-size: 30px;
+            bottom: 10px;
+            text-align: center;
+            padding: 15px 0px 15px 0px;
+            margin: 400px auto 0px;
+            font-family: 'Abel', sans-serif;
+            color: #feda6a;
+            background-color: #333333
+        }
+
+        #bio-image-2 {
+            display: none;
+            margin-top: 50px;
+            border-radius: 10px;
+        }
         
         #wrapper {
             margin: 0 auto;
@@ -424,9 +517,37 @@
         }
 
         #about-me {
-            margin: 50px auto 20px auto;
+            margin: 20px auto 20px auto;
             width: 90%;
             float: initial;
+            display: block;
+        }
+
+        #portfolio-me {
+            width: 90%;
+            margin: 50px auto 20px auto;
+        }
+
+        .portfolio-item {
+            display:inline;
+            float: left;
+            margin: 30px auto 0px 29px;
+            width: 500px;
+            height: 500px;
+            background-color: #1d1e22;
+            background-image: url(http://placehold.it/550x550);
+        }
+
+        #portfolio-box {
+            height: 2000px;
+            width: 100%;
+            margin: 10px auto 20px auto;
+        }
+
+        aside {
+            display: inherit;
+            margin: 0 auto;
+            width: 90%;
         }
 
         aside {
@@ -436,6 +557,7 @@
         }
 
         hr {
+            width: 100%;
             border: none;
             height: 1px;
             color: #feda6a;
